@@ -4,9 +4,9 @@ Local Passwords Administrator using Python Tkinter module
 This is a simple project wich purpose was learning tkinter basics and how to work with .json files properly
 
 It displays a simple gui, that shows 3 entry fields that must be filled by the user:
-1.- Website
-2.- Email/Username
-3.- Password
+- Website
+- Email/Username
+- Password
 
 Once these three inputs are filled the user is able to proceed and add this information to a local generated .json file by clickinn on the Add button located at the bottom of the screen.
 
