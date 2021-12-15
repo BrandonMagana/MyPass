@@ -151,7 +151,7 @@ def search_website_info():
 
     #Checking if website exists in database
     if data == None or data.get(website) == None:
-        messagebox.showinfo(title="There's an Error", message="The website is not found, sorry.")
+        messagebox.showinfo(title="There's an Error", message=f"No details for {website} found.")
     else:
         #Getting data from current website
         website_info = data[website]
